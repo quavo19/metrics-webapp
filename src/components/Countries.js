@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { BsArrowRightCircle } from 'react-icons/bs';
-import './country.module.css';
 import { useDispatch } from 'react-redux';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { FetchCountries } from '../redux/countries/Countries';
