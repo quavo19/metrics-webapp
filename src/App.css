@@ -1,3 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.navBar {
+  justify-content: space-between;
+  padding: 20px;
+  background:#cc316d;
+}
+
+.row {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  background: #cf4378;
+  padding: 5px 20px;
+}
+
+.Arrow {
+  color: #ffffff;
+}
+
+.headDetails {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.headDetails p,
+.headDetails h3 {
+  font-size: 30px;
+}
+
+.Country-list {
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+}
+
+.countryContainer {
+  padding: 20px;
+}
+
+.listimg img {
+  width: 100px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+}
+
+li {
+  background-color: #ec4c8a;
+  display: flex;
+}
+
+li:first-child {
+  grid-column: span 2;
+}
+
+li:nth-child(8n),
+li:nth-child(8n + 3),
+li:nth-child(8n + 4),
+li:nth-child(8n + 7),
+li:nth-child(8n + 8)
+
+ {
+  background-color: #cf4378;
+}
+
+button {
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;  
+}
+
+.Circleicon {
+  color: #fff;
+  position: relative;
+  bottom: 45px;
+  left: 30px;
+}
+
+.name-pop {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.name-pop h3 {
+  font-size: 20px;
+}
+
+.name-pop p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.homepage {
+  padding-top: 30px;
+  height: 100%;
+}
+
+.homepage img {
+  width: 200px;
+}
+
+.HomeCard {
+  height: 20vh;
+  background: #ec4c8a;
 }
