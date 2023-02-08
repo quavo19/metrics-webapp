@@ -42,7 +42,7 @@
 
 .headDetails p,
 .headDetails h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .Country-list {
@@ -56,6 +56,10 @@
 
 .countryContainer {
   padding: 20px;
+}
+
+.population {
+  font-weight: 600;
 }
 
 .listimg img {
@@ -117,6 +121,7 @@ button {
 .homepage {
   padding-top: 30px;
   height: 100%;
+  justify-content: space-around;
 }
 
 .homepage img {
@@ -126,4 +131,32 @@ button {
 .HomeCard {
   height: 20vh;
   background: #ec4c8a;
+}
+
+.detail-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-detail {
+  justify-content: space-between;
+  padding: 40px 20px;
+  font-size: 20px;
+  font-weight: 600;
+} 
+
+.list-detail:nth-child(odd) {
+  background: #cc316d;
+}
+
+.list-detail:nth-child(even) {
+  background: #ec4c8a;
+}
+
+.circle {
+  color: #ffffff;
+}
+
+.value {
+  padding-right: 20px;
 }
