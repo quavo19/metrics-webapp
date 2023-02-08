@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Country-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 2fr));
+}
+
+ul li {
+    list-style: none;
+    padding: 50px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #f236cc;
+}
