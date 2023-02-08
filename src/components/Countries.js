@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import './country.module.css';
 import { useDispatch } from 'react-redux';
 import { NavLink, useNavigate } from 'react-router-dom';
@@ -16,15 +17,19 @@ const Country = ({
   };
   return (
     <div className="card">
-      <div>
-        <NavLink to={numericCode}>
-          <button type="button" onClick={showdetails}>Click</button>
-        </NavLink>
-        <img src={flag} alt={name} id={numericCode} />
-        <div>
+      <div className="countryContainer">
+        <div className="listimg">
+          <img src={flag} alt={name} id={numericCode} />
+          <NavLink to={numericCode}>
+            <button type="button" onClick={showdetails}>
+              <BsArrowRightCircle className="Circleicon" size={19} />
+            </button>
+          </NavLink>
+        </div>
+        <div className="name-pop flex">
 
           <h3>{name}</h3>
-          <p className="population">
+          <p>
             {population}
           </p>
 
