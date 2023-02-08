@@ -16,6 +16,7 @@ const CountryList = () => {
     <>
       <div className="Country-list">
         <ul>
+          <h4>Stats By Country</h4>
           {listCountries.Countrieslist ? listCountries.Countrieslist.map((country) => (
             <li key={country.numericCode}>
               <Country

@@ -21,7 +21,6 @@ const Navbar = () => (
         <IoMdSettings size={25} />
       </div>
     </Row>
-    <h4>Stats By Country</h4>
   </div>
 );
 
