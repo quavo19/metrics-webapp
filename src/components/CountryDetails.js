@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import { v4 as uuidv4 } from 'uuid';
 
 const CountryDetail = (props) => {
@@ -20,13 +21,34 @@ const CountryDetail = (props) => {
   });
   return (
     <>
-      <img src={country.flag} alt="flag" />
-      <ul>
+      <div className="HomeCard">
+        <div className="card">
+          <div className="homepage flex">
+            <img src={country.flag} alt="flag" />
+            <div className="headDetails flex">
+
+              <h3>{country.name}</h3>
+              <p className="population">
+                {country.population}
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul className="detail-list">
+        <li className="description">
+          <h4>City/Town Breakdown -2023</h4>
+        </li>
         {ListDetail.map((item) => (
-          <li key={uuidv4()}>
+          <li className="list-detail flex" key={uuidv4()}>
             <span>{item.detail}</span>
-            :
-            <span>{item.value}</span>
+            <div className="key-icon flex">
+              <span className="value">{item.value}</span>
+              <button type="button">
+                <BsArrowRightCircle className="circle" size={22} />
+              </button>
+            </div>
           </li>
         ))}
       </ul>
