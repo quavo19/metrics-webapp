@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import map from './map.png';
 import { FetchCountries } from '../redux/countries/Countries';
-import './countryList.module.css';
 import Country from './Countries';
 
 const CountryList = () => {
@@ -15,8 +15,25 @@ const CountryList = () => {
   return (
     <>
       <div className="Country-list">
+        <div className="HomeCard">
+          <div className="card">
+            <div className="homepage flex">
+              <img src={map} alt="globe" />
+              <div className="headDetails flex">
+
+                <h3>World Globe</h3>
+                <p className="population">
+                  8.2B
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
         <ul>
-          <h4>Stats By Country</h4>
+          <li className="description">
+            <h4>Stats By Country</h4>
+          </li>
           {listCountries.Countrieslist ? listCountries.Countrieslist.map((country) => (
             <li key={country.numericCode}>
               <Country
