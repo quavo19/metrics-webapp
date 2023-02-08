@@ -18,7 +18,7 @@ function App() {
               path="/"
               element={(
                 <div className="App">
-                  <Navbar />
+                  <Navbar returnpage={false} />
                   <CountryList />
                   {' '}
                 </div>
