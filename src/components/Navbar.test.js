@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import '@testing-library/jest-dom';
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 
 describe('test render', () => {
   test('Header should match snapshoot', () => {
