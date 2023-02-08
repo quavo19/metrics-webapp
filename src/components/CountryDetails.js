@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { v4 as uuidv4 } from 'uuid';
 
 const CountryDetail = (props) => {
   const { country } = props;
@@ -22,7 +23,7 @@ const CountryDetail = (props) => {
       <img src={country.flag} alt="flag" />
       <ul>
         {ListDetail.map((item) => (
-          <li key={item.key}>
+          <li key={uuidv4()}>
             <span>{item.value}</span>
           </li>
         ))}
