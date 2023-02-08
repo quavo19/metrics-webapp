@@ -24,6 +24,8 @@ const CountryDetail = (props) => {
       <ul>
         {ListDetail.map((item) => (
           <li key={uuidv4()}>
+            <span>{item.detail}</span>
+            :
             <span>{item.value}</span>
           </li>
         ))}
