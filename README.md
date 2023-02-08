@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📗 Table of Contents](#-table-of-contents)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [📺 Presentation Video ](#-presentation-video-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Author ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-In the project directory, you can run:
+# 📖 Matrics Map <a name="about-project"></a>
+A powerful and intuitive web application. Powered by the Rest Country API, Matrics Map brings to life the fascinating world of population distribution in a visually appealing and easy-to-use interface. Whether you're a researcher, student, or just curious about the world, Matrics Map has something to offer. Explore data for countries around the world, delving deeper into their regions, native names, area, capitals, and more. With Matrics Map, the journey of discovery is just a few clicks away. Get started today and broaden your horizons with the power of Matrics Map."
 
-### `npm start`
+## 🛠 Built With <a name="built-with"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack <a name="tech-stack"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### `npm test`
+### Key Features <a name="key-features"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Uses a REST API**
+- **Ability to display more details**
+- **Very responsive**
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Live Demo Link]()
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📺 Presentation Video <a name="live-demo"></a>
+[Presentation video]()
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Getting Started <a name="getting-started"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy up and running, follow these steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup
 
-## Learn More
+Clone this repository to your desired folder:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  cd my-folder
+  git clone https://github.com/quavo19/metrics-webapp.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Install
 
-### Code Splitting
+Install this project with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+  cd my-project
+  npm install
+```
 
-### Analyzing the Bundle Size
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run the project, execute the following command:
 
-### Making a Progressive Web App
+```sh
+  npm run build
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👥 Author <a name="authors"></a>
 
-### Advanced Configuration
+👤 **Donald Akite**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@githubhandle](https://github.com/quavo19)
+- Twitter: [@twitterhandle](https://twitter.com/DonaldAkite)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/donald-akite-299a31222/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔭 Future Features <a name="future-features"></a>
 
-### `npm run build` fails to minify
+- [ ] **Fetch more data**
+- [ ] **Filter by continents**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Trast00/PopMap/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project! It's help a lot
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) who is the original author for this [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
