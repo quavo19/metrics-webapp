@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import { Container } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import Navbar from './components/Navbar';
 import './App.css';
+import CountryList from './components/CountryList';
+import Detail from './components/Detail';
+import store from './redux/ConfigureStore';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Provider store={store}>
+        <Router>
+
+          <Routes>
+            <Route
+              path="/"
+              element={(
+                <div className="App">
+                  <Navbar />
+                  <CountryList />
+                  {' '}
+                </div>
+          )}
+            />
+            <Route
+              path="/:topLevelDomain"
+              element={(
+                <Container fluid>
+                  <Detail />
+                </Container>
+)}
+            />
+          </Routes>
+        </Router>
+      </Provider>
     </div>
   );
 }
