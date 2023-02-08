@@ -18,7 +18,7 @@ const Detail = () => {
   }
   return (
     <div>
-      <Navbar name={name} />
+      <Navbar name={name} returnpage />
       {countriesList && (content)}
     </div>
   );
