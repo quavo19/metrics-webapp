@@ -43,10 +43,10 @@ A powerful and intuitive web application. Powered by the Rest Country API, Matri
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link]()
+[Live Demo Link](https://matrixmaps.netlify.app/)
 
 ## 📺 Presentation Video <a name="live-demo"></a>
-[Presentation video]()
+[Presentation video](https://www.loom.com/share/d90f136034a34fc6912832c44287dd5d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
